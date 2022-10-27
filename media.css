@@ -1,0 +1,288 @@
+
+
+
+
+@media ( max-width:1000px){
+    
+   /* anything below 900px all rules are applied  */
+
+    body{
+    padding: 0;
+    margin: 0;
+    }
+
+   .hamburger{
+    font-size: 15px;
+    width: 22px;   
+    }
+    .cross{
+    font-size: 15px;
+    width: 22px;   
+    }
+    .ayoke{
+        display: flex;
+        width: 100%;
+        height: 100vh; 
+    }
+
+    .A{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        height: 100vh;
+    
+    }
+
+    .sub-A1{
+       display: none;
+    }
+    .fa-brands{
+        font-size: 20px;
+    }
+    .fa-solid{
+        font-size: 20px;
+    }
+
+    
+    .navlist{
+        font-size: 15px;
+        line-height: 25px;     
+    }
+    
+    .intro p{
+        font-size: 14px;
+    
+    }
+    .full-name{
+        font-size: 30px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+    
+    .pic-me img{
+        width: 100%;
+        height: 40vh;
+        border-radius: 30px;
+        /* margin-right: 5px; */
+    }
+    
+    .read-me{
+        width: 80px;
+        height: 25px;
+        font-size: 12px;    
+    }
+
+    /* skills */
+    #Skills{
+        margin-bottom: 20px;
+    }
+
+    .box{
+        text-size-adjust: none;
+        width:100px;
+        height:100px;
+       
+    }
+
+    .box img{
+        width: 60px;
+        height: 60px;
+    }
+
+    /* projects */
+
+    #Projects{
+        width: 100%;
+        height: 70vh;
+      
+    }
+    
+    .project_heading {
+        font-size: 20px;
+        letter-spacing: 1px;
+        word-spacing: 2px;            
+       
+    }
+    
+    .project-images{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+       
+    }
+
+    
+    
+    img{ 
+        width: 90px;
+        height: 90px;
+    } 
+
+    .child{
+        width: 95px;
+        height: 95px;
+        display: grid;
+       
+    }
+    .child h3 {
+        font-size: 9px;
+    }
+
+    .child p{
+        font-size: 8px;
+    }
+    
+    .child a{
+        text-decoration: none;
+        color: white;
+    }
+    .icons{
+        display: flex;
+        justify-content:space-around;
+        bottom: left;
+        height: 20px;
+        margin-top: 0px;         
+    }
+
+    .netlify{
+        width: 20px;
+        height: 15px;    
+    }
+    
+
+    /* about */
+    #About{
+        display: grid;
+        height: 120vh;
+      
+    }
+
+    .oke-boy{
+        font-size: 23px;
+        /* letter-spacing: 1px; */
+       
+    }
+    .me{
+        width: 85%;
+    }
+    .me p{
+        font-size: 13px;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+    .house-ayo .pic{
+        width: 110px;
+        height: 110px;
+        border-radius: 100px;
+        margin-right: 10px;
+    }
+
+    /* contact */
+    .joly{
+        height: 200vh;
+        width: 100%;
+    }
+    .house-container{
+        font-size: 13px;
+        width: 100%;
+        display: block;
+        padding-left: 15px;
+    }
+
+    .house{
+        display: block;
+        justify-content: space-evenly;
+        width:90%;
+        height:90px;
+        transform: scale(.9);
+        transition: all 2s;  
+    }
+
+    .ile{
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 40px;
+        width: 100%;
+    }
+    
+    .map iframe{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+    .lets_talk{
+        display: grid;
+        justify-content: center;
+        width: 100%;
+        height: 60vh;
+        background-color: #343434;   /*jet black;*/
+        border-radius: 5px;
+        /* margin-bottom: 20px; */
+    
+    }
+    .message_me{
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+    form input{
+        width: 300px;
+        height: 25px;
+        border-radius: 3px;
+        border: none;
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    textarea{
+        width: 300px;
+        height: 20vh;
+        border-radius: 5px;
+        font-size: 12px;
+        padding-left: 5px;
+ 
+    }
+
+    .submit{
+        display: flex;
+        align-items: center;
+        width: 300px;
+        height: 25px;
+        font-size: 13px;
+    }
+
+    /* footer  */
+
+    footer{
+        margin-top: 30vh;
+        display:grid;
+        width: 100%;
+        height: 25vh;
+    }
+
+    .copyright{
+        display: grid;
+        width: 100%;
+        font-size: 14px;   
+    }
+
+    .top{
+        /* position: fixed; */
+        width: 50px;
+        height: 20px;
+        color: white;
+        background-color: green;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    
+    
+    .top a{
+        font-size: 10px;
+    }
+    
+}
+
