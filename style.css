@@ -499,12 +499,14 @@ footer{
 
 .copyright a{
     color: white;
-    text-decoration: none;    
+    text-decoration: none;  
+    font-family: monospace;  
 }
 
  .tag{
    text-shadow:3px 3px 3px antiquewhite;
    animation:bayo 2s ease 1s infinite;
+   font-family: monospace;
   
 }
 
@@ -518,14 +520,8 @@ footer{
   }
 } 
 
-
-.allOfMe{
-    background-color: #6495ed;
-    text-align: center;
-}
-
-.allOfMe p{
-    font-size: 21px;
+.copy{
+    font-family: monospace;
 }
 
 
