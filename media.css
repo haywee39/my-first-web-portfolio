@@ -160,6 +160,7 @@
     #About{
         display: grid;
         height: 150vh;
+        width: 100vw;
       
     }
 
@@ -171,7 +172,7 @@
        
     }
     .me{
-        width: 95%;
+        width: 90%;
         /* height: 90vh; */
         justify-content: center;
     }
@@ -181,9 +182,9 @@
         letter-spacing: 2px;
     }
     .house-ayo .pic{
-        width: 170px;
-        height: 160px;
-        border-radius: 120px;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
         margin-right: 10px;
         margin-top: 20px;
     }
