@@ -190,6 +190,9 @@
     }
 
     /* contact */
+    #Contact{
+        height: 150vh;
+    }
    
     .house-container{
         font-size: 13px;
