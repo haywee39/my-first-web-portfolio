@@ -159,18 +159,20 @@
     /* about */
     #About{
         display: grid;
-        height: 170vh;
+        height: 80vh;
       
     }
 
-    .oke-boy{
+    .oke-boy span{
+        font-family: 'Splash', cursive;
         font-size: 23px;
+        word-spacing: 10px;
         /* letter-spacing: 1px; */
        
     }
     .me{
-        width: 85%;
-        height: 100vh;
+        width: 95%;
+        /* height: 90vh; */
         justify-content: center;
     }
     .me p{
