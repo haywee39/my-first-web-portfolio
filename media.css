@@ -157,7 +157,7 @@
     /* about */
     #About{
         display: grid;
-        height: 140vh;
+        height: 160vh;
       
     }
 
@@ -170,13 +170,13 @@
         width: 85%;
     }
     .me p{
-        font-size: 13px;
+        font-size: 12px;
         word-spacing: 3px;
         letter-spacing: 2px;
     }
     .house-ayo .pic{
         width: 170px;
-        height: 200px;
+        height: 160px;
         border-radius: 120px;
         margin-right: 10px;
     }
