@@ -190,10 +190,7 @@
     }
 
     /* contact */
-    .joly{
-        height: 200vh;
-        width: 100%;
-    }
+   
     .house-container{
         font-size: 13px;
         width: 100%;
@@ -280,10 +277,10 @@
 
     .top{
         /* position: fixed; */
-        width: 50px;
+        width: 60px;
         height: 20px;
         color: white;
-        background-color: green;
+        background-color: orange;
         border-radius: 10px;
         margin-bottom: 30px;
         margin-left: 10px;
