@@ -116,8 +116,6 @@
         justify-content: space-between;
        
     }
-
-    
     
     img{ 
         width: 90px;
@@ -168,12 +166,9 @@
         font-family: 'Splash', cursive;
         font-size: 23px;
         word-spacing: 10px;
-        /* letter-spacing: 1px; */
-       
     }
     .me{
         width: 90%;
-        /* height: 90vh; */
         justify-content: center;
     }
     .me p{
@@ -232,8 +227,7 @@
         height: 60vh;
         background-color: #343434;   /*jet black;*/
         border-radius: 5px;
-        /* margin-bottom: 20px; */
-    
+       
     }
     .message_me{
         font-size: 25px;
@@ -260,7 +254,7 @@
         display: flex;
         align-items: center;
         width: 300px;
-        height: 300px;
+        height: 30px;
         font-size: 13px;
     }
 
