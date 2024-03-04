@@ -75,7 +75,7 @@
     #Projects{
         display: flex;
         flex-wrap: wrap;
-        width: auto;
+        width: 100%;
         height: auto;
       
     }
@@ -90,6 +90,7 @@
         display: flex;
         text-align: center;
         justify-content: center;
+        height: auto;
        
     }
     
