@@ -75,6 +75,7 @@
     #Projects{
         display: flex;
         flex-wrap: wrap;
+
         width: auto;
         height: auto;
       
@@ -89,44 +90,35 @@
     .project-images{
         display: flex;
         text-align: center;
-        justify-content: space-between;
+        justify-content: center;
        
     }
     
     img{ 
-        /* width: 90px; */
-        /* height: 90px; */
-        width: 80px;
-        height: 80px;
+        width: 250px;
+        height: 200px;
+        /* width: 80px; */
+        /* height: 80px; */
     } 
 
     .child{
+        width: 250px;
+        height: 200;
         /* width: 95px; */
         /* height: 95px; */
-        display: grid;
-        width: 90px;
-        height: 90px;   
-    }
-    .child h4 {
+        /* display: grid; */
+        /* width: 90px; */
+        /* height: 90px;    */
+    } 
+    /* .child h4 {
         font-size: 9px;
-    }
+    } */
 
-    .child p{
+    /* .child p{
         font-size: 8px;
-    }
+    } */
     
-    .child a{
-        text-decoration: none;
-        color: white;
-    }
-    .icons{
-        display: flex;
-        justify-content:space-around;
-        bottom: left;
-        height: 20px;
-        margin-top: 0px;         
-    }
-    
+   
 
     /* about */
     #About{
