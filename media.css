@@ -6,33 +6,13 @@
     
    /* anything below 900px all rules are applied  */
 
-    body{
-    padding: 0;
-    margin: 0;
-    }
-
-   .hamburger{
-    font-size: 15px;
-    width: 22px;   
-    }
-    .cross{
-    font-size: 15px;
-    width: 22px;   
-    }
-    .ayoke{
-        display: flex;
-        width: 100%;
-        height: 100vh; 
-    }
-
-    .vertical-nav{
+    #Home{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 40%;
-        height: 100vh;
-    
+        width: 100vw;
+        height: auto;   
     }
 
     .sub-A1{
@@ -47,11 +27,6 @@
     }
 
     
-    .navlist{
-        font-size: 12px;
-        line-height: 30px;     
-    }
-    
     .intro p{
         font-size: 10px;
     
@@ -59,13 +34,13 @@
     .full-name{
         font-size: 30px;
         letter-spacing: 2px;
-        /* word-spacing: 2px; */
+    
     }
     
     .pic-me img{
         width: 100%;
-        height: 45vh;
-        border-radius: 30px;
+        height: 100%;
+        /* border-radius: 30px; */
         /* margin-right: 5px; */
     }
     
@@ -79,7 +54,7 @@
     /* skills */
     #Skills{
         /* margin-bottom: 20px; */
-        height: 60vh;
+        height: auto;
         width: 100%;
     }
 
@@ -91,21 +66,22 @@
     }
 
     .box img{
-        width: 55px;
-        height: 55px;
+        width: 50px;
+        height: 50px;
     }
 
     /* projects */
 
     #Projects{
-        width: 100%;
-        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
       
     }
     
     .project_heading {
-        font-size: 22px;
-        letter-spacing: 2px;
+        font-size: 20px;
         word-spacing: 2px;            
        
     }
@@ -118,17 +94,20 @@
     }
     
     img{ 
-        width: 90px;
-        height: 90px;
+        /* width: 90px; */
+        /* height: 90px; */
+        width: 80px;
+        height: 80px;
     } 
 
     .child{
-        width: 95px;
-        height: 95px;
+        /* width: 95px; */
+        /* height: 95px; */
         display: grid;
-       
+        width: 90px;
+        height: 90px;   
     }
-    .child h3 {
+    .child h4 {
         font-size: 9px;
     }
 
@@ -147,26 +126,16 @@
         height: 20px;
         margin-top: 0px;         
     }
-
-    .netlify{
-        width: 20px;
-        height: 15px;    
-    }
     
 
     /* about */
     #About{
         display: grid;
-        height: 130vh;
+        height:auto;
         width: 100vw;
       
     }
 
-    .oke-boy span{
-        font-family: 'Splash', cursive;
-        font-size: 23px;
-        word-spacing: 10px;
-    }
     .me{
         width: 90%;
         justify-content: center;
@@ -186,7 +155,8 @@
 
     /* contact */
     #Contact{
-        height: 150vh;
+        width: 100%;
+        height: auto;
     }
    
     .house-container{
@@ -200,9 +170,9 @@
         display: block;
         justify-content: space-evenly;
         width:90%;
-        height:90px;
+        height:auto;
         transform: scale(.9);
-        transition: all 2s;  
+        transition: all 1s;  
     }
 
     .ile{
