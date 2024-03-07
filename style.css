@@ -2,10 +2,179 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;    
 }
-    
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    /* background: orangered; */
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
 
+.navbar a:hover{
+    color: #00abf0;
+
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background: #081b29;
+    color: white;
+
+}
+.home-content{
+    /* background-color: orange; */
+    max-width: 630px;
+
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    /* color: #00abf0; */
+    color: orange;
+}
+.home-content p{
+    font-size: 14px;
+    margin: 20px 0 40px;
+}
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    /* background: orangered; */
+}
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    /* background: #00abf0; */
+    background: orange;
+    border: 2px solid orange;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.btn-box a:hover{
+    color: #00abf0;
+}
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #00abf0;
+}
+
+.btn-box a:nth-child(2):hover{
+    color: #081b29;
+}
+
+.btn-box a:nth-child(2)::before{
+    /* background: #00abf0; */
+    background: orange;
+}
+
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #081b29;
+    z-index: -1;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.btn-box a:hover::before{
+    width: 100%;
+
+}
+
+.home-sci{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+}
+.home-sci a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid orange;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.home-sci a:hover{
+    color: #081b29;
+}
+.home-sci a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: orange;
+    z-index: -1;
+    transition: .5s;
+
+}
+.home-sci a:hover::before{
+    width: 100%;
+}
+
+    
+/* STYLING FOR HOME BEGINS HERE  */
 #Home{
     display: flex;
     flex-direction: column;
@@ -16,7 +185,7 @@
    
 }
 
-nav{
+.nav{
     width: 100%;
     height: 10vh;
     background: orange;
@@ -35,8 +204,8 @@ nav{
     width: 100%;
     height: 100vh;
     color: white;
-    background-color: #000000;
-    font-family:monospace;
+    background-color: bisque;
+    /* font-family:monospace; */
    }
 
 .intro{
@@ -89,24 +258,12 @@ nav{
     height: 10vh;
     background-color: orange;
 }
-/* .sub-A2 ul{ */
-    /* list-style-type: none; */
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
-   
-/* } */
-/* .sub-A2 ul a{ */
-    /* color: white; */
-    /* text-decoration: none */
-/* } */
 
 .sub-A2 ul a:hover{
  color: #6495ed;
 }
 
-
-
+/* STYLING FOR SKILLS BEGINS HERE  */
 #Skills{
     padding-top: 11vh;
     background-color: #fff;
@@ -154,6 +311,7 @@ nav{
     height: 80px;
 }
 
+
 /* STYLING FOR PROJECTS BEGINS HERE  */
 #Projects{
     padding-top: 11vh;
@@ -165,12 +323,12 @@ nav{
     color: white;
     text-align: center;
     /* background-color: #343434;  jet black;   */
-    background-color: antiquewhite; 
+    background-color: #081b29; 
 }
 
 .project_heading {
     color: orange;
-    font-family: 'Splash', cursive;
+    /* font-family: 'Splash', cursive; */
     text-align: center;
     font-size: 35px;
     letter-spacing: 2px;
@@ -224,7 +382,6 @@ img{
     height: 200px;
     background-color: grey;
     opacity: 0;
-    font-family: monospace;
     color: white;
     margin: 20px;
 }
@@ -234,6 +391,7 @@ img{
     color: white;
 }
 
+
 /* ABOUT SECTION BEGINS HERE */
 #About{
     padding-top: 11vh;
@@ -242,7 +400,7 @@ img{
     width: 100%;
     height: 195vh;
     color: white;
-    background-color: black;  
+    background-color: #343434;  
     text-align: center;
     place-items: center;
     align-items: center;
@@ -254,9 +412,9 @@ img{
     height: auto;
 }
 .me p{
-    font-size: 18px;
-    font-family: monospace;
+    font-size: 15px;
 }
+
 .pic{
     width: 250px;
     height: 250px;
@@ -264,6 +422,7 @@ img{
     margin-right: 50px;
     margin-top: 15px;
 }
+
 
 /* CONTACT SECTION BEGINS HERE */
 #Contact{
@@ -279,15 +438,19 @@ img{
     color: black;
     font-style: italic;
     text-align: center;
-    font-size: 20px;
-    font-family: monospace;
+    font-size: 18px;
     letter-spacing: 1px;  
 
 }
 
-.hire a{
+.house a{
     text-decoration: none;
-    color: #000000;
+    color: blue;
+}
+
+.house a:hover{
+    color: orange
+
 }
 
 .house{
@@ -316,14 +479,12 @@ img{
 
 .map{
     padding-left: 50px;
-    text-align: center;
-   
-   
+    text-align: center;   
 }
 
 .message_me{
     color: orange;
-    font-family: 'Splash', cursive;
+    /* font-family: 'Splash', cursive; */
     font-size: 40px;
     letter-spacing: 2px;
 }
@@ -335,7 +496,6 @@ img{
     width: 60%;
     height: 90vh;
     border-radius: 6px;
-
 }
 
 form input{
@@ -346,10 +506,9 @@ form input{
     height: 45px;
     border-radius: 6px;
     border: none;
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 15px;
-    font-family: monospace;
- 
+    
 }
 
 textarea{
@@ -358,8 +517,6 @@ textarea{
     border-radius: 6px;
     font-size: 15px;
     padding-left: 15px;
-    font-family: monospace;
- 
 }
 
 .submit{
@@ -371,35 +528,32 @@ textarea{
     background-color: orange;
     color: white;
     font-size: 18px;
-    font-family: monospace;
 }
 .submit:hover{
     background-color: #6495ed;
 }
     
 .top{
-    /* position: fixed; */
     width: 120px;
     height: 40px;
     color: white;
     background-color: orange;
     border-radius: 20px;
-    /* padding-bottom: 50px; */
     margin-left: 20px;
     border-style: none;
-    font-family: monospace;
-    font-size: 17px;
+    font-size: 14px;
 }
-
 
 .top a{
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
    
 }
 
+
+/* STYLING FOR FOOTER BEGINS HERE  */
 footer{
     display:flex;
     flex-direction: row;
@@ -409,18 +563,16 @@ footer{
     color: white;  
     justify-content: space-around;
     place-items: center;
-    font-size: 18px;
-    font-family: monospace;   
+    font-size: 16px;
 }
 
 
 footer a{
     color: white;
     text-decoration: none;  
-    /* font-family: monospace;   */
 }
 
- .tag{
+.tag{
    text-shadow:3px 3px 3px antiquewhite;
    animation:bayo 2s ease 1s infinite;
 }
