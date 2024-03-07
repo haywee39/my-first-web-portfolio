@@ -2,6 +2,12 @@
 
 
 @media (width < 900px){
+    #navbarNavDropdown{
+        background: orange;
+    }
+    .mypic{
+       display: none;
+    }
 
     .home{
         padding-top: 8vh;

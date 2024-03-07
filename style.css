@@ -31,18 +31,19 @@ nav{
     color: #00abf0 !important;
 }
 
-#navbarNavDropdown{
-    background: orange;
-}
+
 
 /* THE NAVBAR STYLING ENDS HERE  */
 .home{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     padding: 0 10%;
     color: white;
-    background: url(./my\ backgrnd.png) no-repeat;
+    /* background: url(./my\ backgrnd.png) no-repeat; */
+    /* background: url(./web\ bckgrnd.png) no-repeat; */
+    background: linear-gradient(to right,orange 1%, #081b29 50%, #343434 100%); 
+
     background-size: cover;
     background-position: center;
 
@@ -192,7 +193,13 @@ nav{
     width: 100%;
 }
 
-    
+ 
+.mypic img{
+    width: 400px;
+    height: 550px;
+    transform: rotate(-15deg);
+    margin-left: 20%;
+}
 /* STYLING FOR HOME BEGINS HERE  */
 
 /* STYLING FOR SKILLS BEGINS HERE  */
