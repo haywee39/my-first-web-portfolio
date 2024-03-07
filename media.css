@@ -115,7 +115,7 @@
         width: 90%;
         justify-content: center;
     }
-    .project_heading {
+    .me .about_heading {
         font-size: 20px;
         word-spacing: 2px;               
     }
@@ -223,18 +223,19 @@
     } */
 
     .top{
-        width: 70px;
+        width: 65px;
         height: 25px;
         color: white;
-        background-color: orange;
-        border-radius: 10px;
-        margin-left: 10px;
+        /* background-color: orange; */
+        border-radius: 8px;
+        margin-left: 15px;
     }
     
     
     .top a{
-        font-size: 10px;
-        background-color: orange;
+        font-size: 8px;
+        /* background-color: orange; */
+        
     }
     
 }
