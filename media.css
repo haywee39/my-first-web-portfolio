@@ -51,11 +51,11 @@
         height: auto;
         width: 100%;
     }
-    .skill_heading{
+    /* .skill_heading{
         font-size: 20px;
         word-spacing: 2px;            
    
-    }
+    } */
 
     .box{
         text-size-adjust: none;
@@ -78,11 +78,11 @@
       
     }
     
-    #Projects .project_heading {
+    /* #Projects .project_heading {
         font-size: 20px;
         word-spacing: 2px;            
        
-    }
+    } */
     
     .project-images{
         display: flex;
@@ -115,10 +115,10 @@
         width: 90%;
         justify-content: center;
     }
-    .me .about_heading {
+    /* .me .about_heading {
         font-size: 20px;
         word-spacing: 2px;               
-    }
+    } */
 
     .me p{
         font-size: 12px;
@@ -216,26 +216,17 @@
         font-size: 14px;
     }
 
-    /* .copyright{
-        display: grid;
-        width: 100%;
-        font-size: 14px;   
-    } */
-
     .top{
         width: 65px;
         height: 25px;
         color: white;
-        /* background-color: orange; */
         border-radius: 8px;
         margin-left: 15px;
     }
     
     
     .top a{
-        font-size: 8px;
-        /* background-color: orange; */
-        
+        font-size: 8px; 
     }
     
 }
