@@ -1,7 +1,7 @@
 
 
 
-@media (width < 1000px){
+@media (width < 900px){
 
     #Home{
         display: flex;
@@ -10,40 +10,6 @@
         justify-content: center;
         width: 100vw;
         height: auto;   
-    }
-
-    .sub-A1{
-       display: visible;
-       font-size: 20px;
-    }
-    .fa-brands{
-        font-size: 20px;
-    }
-    .fa-solid{
-        font-size: 15px;
-    }
-
-    
-    .intro p{
-        font-size: 10px;
-    
-    }
-    .full-name{
-        font-size: 30px;
-        letter-spacing: 2px;
-    
-    }
-    
-    .pic-me img{
-        width: 100%;
-        height: 100%;
-    }
-    
-    .read-me{
-        width: 100px;
-        height:25px;
-        font-size: 12px; 
-        border-radius: 15px;   
     }
 
     /* skills */
@@ -78,7 +44,7 @@
       
     }
     
-    .project_heading2 {
+    .project_heading2{
         font-size: 18px;
         letter-spacing: 2px;            
        
