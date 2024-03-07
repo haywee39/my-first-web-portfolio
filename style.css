@@ -42,6 +42,9 @@
     padding: 0 10%;
     background: linear-gradient(to right,orange 1%, #081b29 50%, #343434 100%); 
     color: white;
+    background: url(./my\ backgrnd.png) no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
 .home-content{
@@ -61,16 +64,28 @@
     /* color: orange; */
 }
 .home-content p{
+    position: relative;
     font-size: 14px;
     margin: 20px 0 40px;
 }
+
+/* .home-content p::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    animation-delay: 1.5s;
+} */
+
 .home-content .btn-box{
     display: flex;
     justify-content: space-between;
     width: 345px;
     height: 50px;
-    /* background: orangered; */
 }
+
 .btn-box a{
     position: relative;
     display: inline-flex;
