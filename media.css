@@ -4,9 +4,13 @@
 @media (width < 900px){
 
     .home{
-        height: 100vh;
+        padding-top: 12vh;
+        height: auto;
         width: 100%;
-        align-items: flex-start;
+        /* align-items: flex-start; */
+        background: url(./smalscrn\ bckgrnd\ .png) no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     
     .home-content{
