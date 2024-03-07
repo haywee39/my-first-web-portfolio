@@ -8,22 +8,18 @@
         height: 65vh;
         width: 100%;
         padding: 0 5%;
-        /* align-items: flex-start; */
-        background: url(./600by250redced12.png) no-repeat;
+        background: url(./Untitled\ design\ \(2\).png) no-repeat;
         background-size: cover;
         background-position: center;
     }
     
     .home-content{
-        /* background-color: orange; */
         max-width: 430px;
-        /* width: 70%; */
-    
     }
     .home-content h1{
         font-size: 30px;
         font-weight: 700;
-        line-height: 0.9;
+        /* line-height: 0.9; */
     }
 
     .home-content h3{
