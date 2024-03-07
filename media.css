@@ -9,13 +9,13 @@
     }
     
     .home-content{
-        /* background-color: orange; */
+        background-color: orange;
         /* max-width: 230px; */
         max-width: 75%;
     
     }
     .home-content h1{
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 700;
         line-height: 0.9;
     }
@@ -33,7 +33,7 @@
     }
 
     .home-content .btn-box{
-        /* background-color: red; */
+        background-color: red;
         display: flex;
         justify-content: space-between;
         width: 305px;
