@@ -4,8 +4,8 @@
 @media (width < 900px){
 
     .home{
-        padding-top: 12vh;
-        height: auto;
+        padding-top: 10vh;
+        height: 50vh;
         width: 100%;
         /* align-items: flex-start; */
         background: url(./smalscrn\ bckgrnd\ .png) no-repeat;
