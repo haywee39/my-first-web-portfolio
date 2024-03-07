@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
     font-family: 'poppins', sans-serif;    
 }
-.header{
+/* .header{
     position: fixed;
     top: 0;
     left: 0;
@@ -16,12 +16,23 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-}
-.logo{
+} */
+/* .logo{
     font-size: 25px;
     color: white;
     text-decoration: none;
     font-weight: 600;
+} */
+/* .navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+} */
+
+nav{
+    width: 100vw;
 }
 .navbar a{
     font-size: 18px;
@@ -33,7 +44,11 @@
 
 .navbar a:hover{
     color: #00abf0;
+}
 
+#navbarNavDropdown{
+    width: 100%;
+    background: orange;
 }
 .home{
     height: 100vh;
