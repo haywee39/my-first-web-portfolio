@@ -51,6 +51,11 @@
         height: auto;
         width: 100%;
     }
+    .skill_heading{
+        font-size: 20px;
+        word-spacing: 2px;            
+   
+    }
 
     .box{
         text-size-adjust: none;
@@ -73,7 +78,7 @@
       
     }
     
-    .project_heading {
+    #Projects .project_heading {
         font-size: 20px;
         word-spacing: 2px;            
        
@@ -110,8 +115,13 @@
         width: 90%;
         justify-content: center;
     }
+    .project_heading {
+        font-size: 20px;
+        word-spacing: 2px;               
+    }
+
     .me p{
-        font-size: 10px;
+        font-size: 12px;
         word-spacing: 3px;
         letter-spacing: 1px;
     }
