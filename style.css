@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     padding: 0 10%;
-    background: linear-gradient(to right,orange 1%, #081b29 50%, #343434 100%); 
+    /* background: linear-gradient(to right,orange 1%, #081b29 50%, #343434 100%);  */
     color: white;
     background: url(./my\ backgrnd.png) no-repeat;
     background-size: cover;
@@ -69,17 +69,19 @@
     margin: 20px 0 40px;
 }
 
-/* .home-content p::before{
+.home-content p::before{
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 0;
     height: 100%;
+    animation: homeStuff 1s ease forward;
     animation-delay: 1.5s;
-} */
+}
 
 .home-content .btn-box{
+    background-color: red;
     display: flex;
     justify-content: space-between;
     width: 345px;
@@ -540,6 +542,15 @@ footer a{
       transform:rotateY(45deg);
   }
 } 
+
+
+@keyframes homeStuff {
+    100%{
+        width: 0;
+        
+    }
+    
+}
 
 
 

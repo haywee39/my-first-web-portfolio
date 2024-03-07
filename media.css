@@ -3,14 +3,51 @@
 
 @media (width < 900px){
 
-    #Home{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100vw;
-        height: auto;   
+    .home{
+        height: 100%;
+        width: 100%;
     }
+    
+    .home-content{
+        /* background-color: orange; */
+        /* max-width: 230px; */
+        max-width: 75%;
+    
+    }
+    .home-content h1{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 0.9;
+    }
+
+    .home-content h3{
+        font-size: 20px;
+        font-weight: 700;
+        color: #00abf0;
+        /* color: orange; */
+    }
+    .home-content p{
+        position: relative;
+        font-size: 12px;
+        margin: 15px 0 20px;
+    }
+
+    .home-content .btn-box{
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        width: 305px;
+        height: 40px;
+    }
+
+    .btn-box a{
+        /* width: 100px; */
+        /* height: 100%; */
+        font-size: 12px;
+    }
+
+    
+
 
     /* skills */
     #Skills{
@@ -165,7 +202,7 @@
         font-size: 14px;
     }
 
-    
+
     .top{
         width: 65px;
         height: 25px;
