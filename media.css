@@ -4,11 +4,12 @@
 @media (width < 900px){
 
     .home{
-        padding-top: 10vh;
-        height: 50vh;
+        padding-top: 8vh;
+        height: 65vh;
         width: 100%;
+        padding: 0 5%;
         /* align-items: flex-start; */
-        background: url(./smalscrn\ bckgrnd\ .png) no-repeat;
+        background: url(./600by250redced.png) no-repeat;
         background-size: cover;
         background-position: center;
     }

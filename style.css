@@ -31,6 +31,10 @@ nav{
     color: #00abf0 !important;
 }
 
+#navbarNavDropdown{
+    background: orange;
+}
+
 /* THE NAVBAR STYLING ENDS HERE  */
 .home{
     height: 100vh;
