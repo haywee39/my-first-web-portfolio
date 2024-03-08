@@ -12,8 +12,6 @@ html{
 
 
 /* THE NAVBAR STYLING STARTS HERE  */
-
-
  .navbar{
     color: white;
     background: orange;
@@ -28,9 +26,10 @@ html{
     color: #00abf0 !important;
 }
 
-
-
 /* THE NAVBAR STYLING ENDS HERE  */
+
+
+/* STYLING FOR HOME BEGINS HERE  */
 .home{
     width: 100vw;
     height: 100vh;
@@ -51,11 +50,9 @@ html{
     position: absolute;
     top: 0;
     right: 0;
-    /* left: 0; */
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    /* background: transparent; */
      background: linear-gradient(to right, orange 10%, #081b29 50%, #343434 100%); 
     animation: testAnime 1s ease forwards;
     animation-delay: 2.5s;
@@ -104,7 +101,6 @@ html{
     left: 0;
     width: 100%;
     height: 100%;
-    /* background: #081b29; */
     background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%); 
     animation: testAnime 1s ease forwards;
     animation-delay: 1s;
@@ -128,7 +124,6 @@ html{
     right: 0;
     width: 100%;
     height: 100%;
-    /* background: #081b29; */
     background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%); 
     animation: testAnime 1s ease forwards;
     animation-delay: 1.5s;
@@ -157,7 +152,6 @@ html{
     background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%); 
     animation: testAnime 1s ease forwards;
     animation-delay: 2s;
-    /* z-index: 1; */
 }
 @keyframes testAnime{
     100%{
@@ -172,7 +166,6 @@ html{
     align-items: center;
     width: 150px;
     height: 100%;
-    /* background: #00abf0; */
     background: orange;
     border: 2px solid orange;
     border-radius: 8px;
@@ -200,7 +193,6 @@ html{
 }
 
 .btn-box a:nth-child(2)::before{
-    /* background: #00abf0; */
     background: orange;
 }
 
@@ -227,7 +219,6 @@ html{
     display: flex;
     justify-content: space-between;
     position: absolute;
-    /* bottom: 40px; */
     width: 170px;
 }
 .home-sci a{
@@ -237,12 +228,10 @@ html{
     align-items: center;
     width: 40px;
     height: 40px;
-    /* background: orange; */
     background: transparent;
     border: 2px solid orange;
     border-radius: 50%;
     font-size: 20px;
-    /* color: #081b29; */
     color: #00abf0;
     text-decoration: none;
     z-index: 1;
@@ -301,7 +290,7 @@ html{
 }
 
 
-/* STYLING FOR HOME BEGINS HERE  */
+/* STYLING FOR HOME ENDS HERE  */
 
 /* STYLING FOR SKILLS BEGINS HERE  */
 #Skills{
