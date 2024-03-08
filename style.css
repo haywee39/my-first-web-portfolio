@@ -17,9 +17,7 @@ html{
  .navbar{
     color: white;
     background: orange;
-    /* background: linear-gradient(to right,orange 1%, #081b29 50%, #343434 100%);  */
-    font-size: 17px;
-    
+    font-size: 17px;   
 }
 
 .nav-item a{
@@ -44,8 +42,27 @@ html{
      background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%); 
 }
 .home-content{
-    /* background-color: orange; */
-    max-width: 630px;
+    position: relative;
+    max-width: 650px;
+}
+.home-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: transparent;
+     background: linear-gradient(to right, orange 10%, #081b29 50%, #343434 100%); 
+    animation: testAnime 1s ease forwards;
+    animation-delay: 4s;
+}
+
+@keyframes testAnime{
+    100%{
+        width: 0;
+    }
 }
 .home-content h1{
     position: relative;
@@ -61,7 +78,7 @@ html{
     width: 100%;
     height: 100%;
     background: transparent;
-     background: linear-gradient(to left, orange 1%, #081b29 5%, #343434 100%); 
+     background: linear-gradient(to left, orange 1%, #081b29 50%, #343434 100%); 
     /* background: #343434; */
     animation: testAnime 1s ease forwards;
     animation-delay: .4s;
@@ -86,7 +103,7 @@ html{
     width: 100%;
     height: 100%;
     /* background: #081b29; */
-    background: linear-gradient(to left,orange 0%, #081b29 5%, #343434 100%); 
+    background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%); 
     animation: testAnime 1s ease forwards;
     animation-delay: 1s;
 }
@@ -110,7 +127,7 @@ html{
     width: 100%;
     height: 100%;
     /* background: #081b29; */
-    background: linear-gradient(to left,orange 0%, #081b29 5%, #343434 100%); 
+    background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%); 
     animation: testAnime 1s ease forwards;
     animation-delay: 1.5s;
 }
