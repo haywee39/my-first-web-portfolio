@@ -40,23 +40,61 @@ html{
     justify-content: center;
     /* padding: 0 10%; */
     color: white;
-    background: linear-gradient(to right,orange 1%, #081b29 50%, #343434 100%); 
+    background: #081b29;
+     background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%); 
 }
 .home-content{
     /* background-color: orange; */
     max-width: 630px;
-
 }
 .home-content h1{
+    position: relative;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
 }
+.home-content h1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+     background: linear-gradient(to left, orange 1%, #081b29 5%, #343434 100%); 
+    /* background: #343434; */
+    animation: testAnime 1s ease forwards;
+    animation-delay: .4s;
+}
+
+@keyframes testAnime{
+    100%{
+        width: 0;
+    }
+}
 .home-content h3{
+    position: relative;
     font-size: 32px;
     font-weight: 700;
     color: #00abf0;
-    /* color: orange; */
+}
+.home-content h3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #081b29; */
+    background: linear-gradient(to left,orange 0%, #081b29 5%, #343434 100%); 
+    animation: testAnime 1s ease forwards;
+    animation-delay: 1s;
+}
+
+@keyframes testAnime{
+    100%{
+        width: 0;
+    }
 }
 .home-content p{
     position: relative;
@@ -68,15 +106,22 @@ html{
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
-    width: 0;
+    right: 0;
+    width: 100%;
     height: 100%;
-    animation: homeStuff 1s ease forward;
+    /* background: #081b29; */
+    background: linear-gradient(to left,orange 0%, #081b29 5%, #343434 100%); 
+    animation: testAnime 1s ease forwards;
     animation-delay: 1.5s;
 }
 
+@keyframes testAnime{
+    100%{
+        width: 0;
+    }
+}
+
 .home-content .btn-box{
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     width: 345px;
@@ -189,16 +234,26 @@ html{
 
  
 .mypic img{
+    position: relative;
     width: 400px;
     height: 550px;
     transform: rotate(-15deg);
     margin-left: 20%;
 }
+.mypic img::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: ;
+}
 /* STYLING FOR HOME BEGINS HERE  */
 
 /* STYLING FOR SKILLS BEGINS HERE  */
 #Skills{
-    background: linear-gradient(to right,orange 1%, #081b29 50%, #343434 100%);
+    background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -268,7 +323,7 @@ html{
     text-align: center;
     /* background-color: #343434;  jet black;   */
     background-color: #081b29; 
-    background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%); 
+    background: linear-gradient(to right,orange 1%, #081b29 50%, #343434 100%); 
 }
 #Projects .project_heading {
     padding-top: 40px;
@@ -349,7 +404,7 @@ img{
     width: 100%;
     height: 150vh;
     color: white;
-    background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%); 
+    background: linear-gradient(to right,orange 1%, #081b29 50%, #343434 100%); 
     text-align: center;
     place-items: center;
     align-items: center;
@@ -383,7 +438,7 @@ img{
 
 /* CONTACT SECTION BEGINS HERE */
 #Contact{
-    background: linear-gradient(to right,orange 1%, #081b29 50%, #343434 100%); 
+    background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%); 
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -523,7 +578,7 @@ footer{
     justify-content: space-around;
     place-items: center;
     font-size: 16px;
-    background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%); 
+    background: linear-gradient(to right,orange 1%, #081b29 50%, #343434 100%); 
 }
 
 
@@ -547,14 +602,6 @@ footer a{
   }
 } 
 
-
-@keyframes homeStuff {
-    100%{
-        width: 0;
-        
-    }
-    
-}
 
 
 
