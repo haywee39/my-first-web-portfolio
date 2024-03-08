@@ -32,6 +32,7 @@ html{
 
 /* THE NAVBAR STYLING ENDS HERE  */
 .home{
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -50,13 +51,14 @@ html{
     position: absolute;
     top: 0;
     right: 0;
+    /* left: 0; */
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background: transparent;
+    /* background: transparent; */
      background: linear-gradient(to right, orange 10%, #081b29 50%, #343434 100%); 
     animation: testAnime 1s ease forwards;
-    animation-delay: 4s;
+    animation-delay: 2.5s;
 }
 
 @keyframes testAnime{
@@ -99,7 +101,7 @@ html{
     content: '';
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     /* background: #081b29; */
@@ -139,10 +141,28 @@ html{
 }
 
 .home-content .btn-box{
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 345px;
     height: 50px;
+}
+.home-content .btn-box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%); 
+    animation: testAnime 1s ease forwards;
+    animation-delay: 2s;
+    /* z-index: 1; */
+}
+@keyframes testAnime{
+    100%{
+        width: 0;
+    }
 }
 
 .btn-box a{
@@ -251,21 +271,36 @@ html{
 
  
 .mypic img{
+    width: 470px;
+    height: 540px;
+    margin-left: 10%;
     position: relative;
-    width: 400px;
-    height: 550px;
-    transform: rotate(-15deg);
-    margin-left: 20%;
+    top: -100px;
+    animation: drop .5s ease-out forwards, dangle 2s infinite alternate;
+    transform-origin: top;
 }
-.mypic img::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    animation: ;
+
+@keyframes drop {
+    0% {
+        top: -100px;
+        opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
 }
+
+@keyframes dangle {
+    0% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+
 /* STYLING FOR HOME BEGINS HERE  */
 
 /* STYLING FOR SKILLS BEGINS HERE  */
@@ -418,7 +453,7 @@ img{
     padding-top: 3vh;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     height: 150vh;
     color: white;
     background: linear-gradient(to right,orange 1%, #081b29 50%, #343434 100%); 
@@ -589,7 +624,7 @@ footer{
     display:flex;
     flex-direction: row;
     background-color: black;   
-    width: 100%;
+    width: 100vw;
     height: 60px;
     color: white;  
     justify-content: space-around;
