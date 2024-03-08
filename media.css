@@ -10,8 +10,10 @@
     }
 
     .home{
-        padding-top: 8vh;
-        height: 65vh;
+        justify-content: center;
+        align-items: center;
+        /* padding-top: 8vh; */
+        height: 80vh;
         width: 100%;
         padding: 0 5%;
         background: url(./Untitled\ design\ \(2\).png) no-repeat;
@@ -25,14 +27,12 @@
     .home-content h1{
         font-size: 30px;
         font-weight: 700;
-        /* line-height: 0.9; */
     }
 
     .home-content h3{
         font-size: 25px;
         font-weight: 600;
         color: #00abf0;
-        /* color: orange; */
     }
     .home-content p{
         position: relative;
@@ -41,7 +41,6 @@
     }
 
     .home-content .btn-box{
-        /* background-color: red; */
         display: flex;
         justify-content: space-between;
         width: 305px;
@@ -49,8 +48,6 @@
     }
 
     .btn-box a{
-        /* width: 100px; */
-        /* height: 100%; */
         font-size: 12px;
     }
 
@@ -118,7 +115,7 @@
     }
 
     .me{
-        width: 90%;
+        width: 100%;
         justify-content: center;
     }
 
@@ -132,7 +129,8 @@
         height: 100px;
         border-radius: 100px;
         margin-right: 10px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
+        margin-bottom: 50px;
     }
 
 
