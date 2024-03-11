@@ -258,37 +258,47 @@ html{
     width: 100%;
 }
 
+.mypic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    background: linear-gradient(to left,orange 10%, #081b29 50%, #343434 50%); 
+    perspective: 800px;
+}
  
 .mypic img{
-    width: 470px;
-    height: 540px;
-    margin-left: 10%;
-    position: relative;
-    top: -100px;
-    animation: drop .5s ease-out forwards, dangle 2s infinite alternate;
-    transform-origin: top;
+    width: 450px;
+    height: 530px;
+    /* margin-left: 50%; */
+    background: linear-gradient(to right,orange 10%, #081b29 50%, #343434 50%); 
+    animation: drip 8s infinite alternate;
 }
 
-@keyframes drop {
+@keyframes drip {
     0% {
-        top: -100px;
         opacity: 0;
     }
-    100% {
-        top: 0;
+    
+    50% {
         opacity: 1;
     }
-}
 
-@keyframes dangle {
     0% {
-        transform: rotate(10deg);
+        transform: rotateY(45deg);
+    }
+    50% {
+        transform: rotateY(-360deg);
+    }
+    75% {
+        transform: rotateY(90deg);
     }
     100% {
-        transform: rotate(-5deg);
+        transform: rotateY(0deg);
     }
 }
-
 
 /* STYLING FOR HOME ENDS HERE  */
 
@@ -469,11 +479,12 @@ img{
 }
 
 .pic{
-    width: 240px;
-    height: 250px;
-    border-radius: 200px;
+    width: 280px;
+    height: 300px;
+    border-radius: 250px;
     margin-right: 50px;
     margin-top: 15px;
+    background: linear-gradient(to right,orange 10%, #081b29 50%, #343434 100%); 
 }
 
 

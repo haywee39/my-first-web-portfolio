@@ -6,7 +6,7 @@
         background: orange;
     }
     .mypic{
-       display: none;
+        display: none;
     }
 
     .home{
@@ -123,13 +123,40 @@
         word-spacing: 3px;
         letter-spacing: 1px;
     }
+   
     .pic{
         width: 100px;
         height: 100px;
         border-radius: 100px;
         margin-right: 10px;
         margin-bottom: 50px;
+        background: linear-gradient(to right,orange 10%, #081b29 50%, #343434 50%); 
+        animation: drake 8s infinite alternate;
     }
+    
+    @keyframes drake {
+        0% {
+            opacity: 0;
+        }
+        
+        50% {
+            opacity: 1;
+        }
+    
+        0% {
+            transform: rotateY(45deg);
+        }
+        50% {
+            transform: rotateY(-360deg);
+        }
+        75% {
+            transform: rotateY(90deg);
+        }
+        100% {
+            transform: rotateY(0deg);
+        }
+    }
+    
 
 
     /* contact */
