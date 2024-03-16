@@ -265,7 +265,11 @@ html{
     width: 500px;
     height: 500px;
     margin-top: 50px;
-    background: linear-gradient(to left,orange 10%, #081b29 50%, #343434 50%); 
+    background-image: url(./Untitled\ design\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background: linear-gradient(to left,orange 10%, #081b29 50%, #343434 50%);  */
     perspective: 800px;
 }
  
@@ -299,6 +303,7 @@ html{
         transform: rotateY(0deg);
     }
 }
+
 
 /* STYLING FOR HOME ENDS HERE  */
 
@@ -361,6 +366,16 @@ html{
     height: 80px;
 }
 
+.boxes .box > img{
+    scale: .9; opacity: 0;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range:contain 100px;
+}
+@keyframes fade-in {
+    to {scale: 1; opacity: 1;}
+}
+
 
 /* STYLING FOR PROJECTS BEGINS HERE  */
 #Projects{
@@ -403,7 +418,17 @@ html{
 img{ 
     width: 350px;
     height: 200px;
-} 
+}
+
+.project-images .parent > img{
+    scale: .9; opacity: 0;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range:contain;
+}
+@keyframes fade-in {
+    to {scale: 1; opacity: 1;}
+}
 
 .parent{
     position: relative;
@@ -486,7 +511,15 @@ img{
     margin-top: 15px;
     background: linear-gradient(to right,orange 10%, #081b29 50%, #343434 100%); 
 }
-
+.me > img{
+    scale: .8; opacity: 0;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range:contain 100px;
+}
+@keyframes fade-in {
+    to {scale: 1; opacity: 1;}
+}
 
 /* CONTACT SECTION BEGINS HERE */
 #Contact{
